@@ -75,6 +75,9 @@ a{
     color: #424551;
 }
 /* Home section styles */
+.home{
+    padding: 80px 0;
+}
 .home_wrapper{
     display: flex;
     align-items: center;
