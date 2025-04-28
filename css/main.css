@@ -49,6 +49,14 @@ a{
     font-weight: 900;
     color: #1e212c;
 }
+/* hero background */
+.hero{
+    background-image: url("../images/hero-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+
+}
 /* Header section styles */
 .header{
     padding: 20px 0;
@@ -87,7 +95,7 @@ a{
 }
 /* Home section styles */
 .home{
-    padding: 80px 0;
+    padding: 112px 0;
 }
 .home_wrapper{
     display: flex;
@@ -106,13 +114,15 @@ a{
     font-weight: 900;
     line-height: 130%;
     color: #1e212c;
+    letter-spacing: 1px;
+    margin: 40px 0 64px 0;
 }
 .home_btn2{
     margin-right: 16px;
 }
 /* Stats section styles */
 .stats{
-    padding: 48px;
+    padding:112px 0;
 }
 .stats_wrapper{
     display: flex;
@@ -126,8 +136,8 @@ a{
 }
 .stats__circle{
     background-color: #ff3f3a;
-    width: 8px;
-    height: 8px;
+    width: 10px;
+    height: 10px;
     border-radius: 4px;
 }
 .stats_description{
