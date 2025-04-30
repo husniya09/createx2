@@ -28,6 +28,9 @@ a{
     font-weight: 700;
     letter-spacing: 0.5px;
 }
+.section_btn1:hover{
+    opacity: 0.8;
+}
 .section_btn2{
     background-color: transparent;
     border-radius: 4px;
@@ -49,12 +52,20 @@ a{
     font-weight: 900;
     color: #1e212c;
 }
+.section_subtitle{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 1px;
+    color: #1e212c;
+    text-transform: uppercase;
+}
 /* hero background */
 .hero{
     background-image: url("../images/hero-background.png");
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100vh;
+    min-height: 1080px;
 
 }
 /* Header section styles */
@@ -141,6 +152,36 @@ a{
     border-radius: 4px;
 }
 .stats_description{
+    font-size: 16px;
+    line-height: 160%;
+    font-weight: 400;
+    color: #1e212c;
+}
+/* about section styles */
+.about{
+    margin: 128px 0;
+}
+.about_wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 112px;
+}
+.about_title{
+    margin: 8px 0 24px 0;
+}
+.about_item{
+    display: flex;
+    align-items: start;
+    gap: 16px;
+    margin-bottom: 12px;
+}
+.about_check{
+    margin-top: 4px;
+}
+.about_btn{
+    margin-top: 32px;
+}
+.about_text{
     font-size: 16px;
     line-height: 160%;
     font-weight: 400;
