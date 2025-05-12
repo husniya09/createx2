@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+    /* <!-- Class sel, id sel, element(tag) sel, universal --> */
+    /* !important>inline styles>ID Selector>Class sel >Tag sel */
+    /* css Specificity (O'ziga xoslik*/
+        #heading{
+            color: blue;
+            font-size: 48px;
+        }
+        .heading2{
+            color: red;
+            font-size: 32px !important;
+        }
+        h2{
+            color: yellowgreen !important;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="color:aqua" class="heading2" id="heading">Heading 2 element</h2>
+    
+</body>
+</html>
