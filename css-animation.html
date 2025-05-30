@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>css animation</title>
+    <style>
+        @keyframes changeBackground{
+         0%{
+            background-color: crimson;
+            width: 200px;
+            height: 200px;
+         }
+         25%{
+            background-color: blue;
+            width: 100px;
+            height: 100px;
+         }
+         50%{
+            background-color: lightblue;
+            width: 300px;
+            height: 300px;
+         }
+         75%{
+            background-color: black;
+            width: 200px;
+            height: 200px;
+         }
+         100%{
+            background-color: yellowgreen;
+            width: 150px;
+            height: 150px;
+         }
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: crimson;
+            animation-name:changeBackground ;
+            animation-duration: 12s;
+            animation-iteration-count: infinite;
+            animation-delay: 3600ms;
+        }
+        @keyframes boxMover{
+            from{
+                top: 0;
+                left: 0;
+            }
+            25%{
+                top: 0;
+                left: 500px;
+            }
+            50%{
+                top: 500px;
+                left: 500px;
+            }
+            75%{
+                top: 500px;
+                left: 0;
+            }
+            to{
+                top: 0;
+                left: 0;
+            }
+        }
+        .box-mover{
+            width: 200px;
+            height: 200px;
+            background-color: crimson;
+            color: white;
+            position: relative;
+            animation-name: boxMover;
+            animation-duration: 5000ms;
+            animation-iteration-count: 3;
+            animation-direction:normal;
+            animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="box">box element</div>  -->
+    <div class="box-mover"> Animatsiyaga ega quti</div>
+</body>
+</html>

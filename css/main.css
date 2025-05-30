@@ -242,3 +242,132 @@ a {
   font-weight: 400;
   color: #424551;
 }
+.certificate_wraper{
+  display: flex;
+  justify-content: space-between;
+  gap: 128px;
+}
+.section__subtitle{
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+.certificate_left{
+  width: 320px;
+}
+.section_btn{
+  margin-top: 42px;
+  margin-bottom: 34px;
+}
+/* Team */
+.team_bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.team_title{
+  margin-bottom: 45px;
+}
+.team_img{
+  background-color: rgb(255, 208, 0);
+}
+.team_wrapper{
+  align-items: center;
+  justify-content: space-between;
+}
+.team{
+  margin: 32px;
+}
+.icon{
+  background-color:white;
+}
+.img:hover{
+  background-color: red;
+  height: 30px;
+  border-radius: 50px;
+}
+.team_top{
+  display: flex;
+  gap: 850px;
+}
+.icon{
+  border: none;
+}
+.team_subtitle{
+  text-align: center;
+}
+/* clients */
+.clients_top{
+  text-align: center;
+  margin-bottom: 15px;
+}
+.clients_wrapper{
+  background-color:#e8e8e8;
+  padding-inline-start: 15px;
+}
+.clients_bottom{
+  display: flex;
+  align-items: center;
+  padding: 12px 0 34px 0;
+}
+.clients_cards{
+  display: flex;
+  width: 850px;
+  background-color: #fff;
+  padding: 25px;
+}
+.clients_card{
+  display: flex;
+}
+.subtitle{
+  text-align: left;
+}
+.icons{
+  margin-right: 330px;
+  background-color: #e4e4e6;
+  border: none;
+}
+.clients_img{
+  margin:0 12px 0 0;
+}
+.clients_card{
+  margin-top: 15px;
+}
+/* events top  */
+.events{
+  padding: 256px 0 128px 0;
+  background-image: url("../images/events-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.events__top{
+  text-align: center;
+}
+.events__medium{
+  margin: 48px 0;
+}
+.events__bottom{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.events__card{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 32px;
+}.events__card:hover{
+  box-shadow: 0px 4px 4px 4px #f75e05
+}
+.events__card--datebox{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.events__card--content{
+  width: 712px;
+
+}
